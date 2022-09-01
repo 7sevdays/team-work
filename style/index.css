@@ -275,4 +275,101 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
+}
+.footer_1 {
+  margin-top: 115px;
+  margin-bottom: 80px;
+}
+.footer_1 .email {
+  font-size: 16px;
+  color: #ff5b46;
+  font-weight: 300;
+  font-family: "Circe";
+  line-height: 1.7;
+  border: 1px solid #ff5b46 !important;
+}
+.footer_1 .btn {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Circe";
+  line-height: 2;
+  background: #ff5b46;
+  border: 1px solid #ff5b46 !important;
+  padding-left: 105px;
+  padding-right: 115px;
+}
+.footer_1 h5 {
+  font-size: 48px;
+  color: #535e64;
+  font-weight: 800;
+  font-family: "Circe";
+  line-height: 1.2;
+}
+.footer_1 .p-1 {
+  font-size: 16px;
+  color: #9a9a9a;
+  font-weight: 200;
+  font-family: "Circe";
+  line-height: 1.2;
+  margin: 0 auto;
+}
+.footer_1 .p-2 {
+  font-size: 14px;
+  color: #abacae;
+  font-weight: 200;
+  font-family: "Circe";
+  line-height: 1.2;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+.footer_1 .form-control {
+  width: 50%;
+}
+.footer_2 {
+  background: #f9f9f9;
+}
+.footer_2 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #535e64;
+  font-weight: 500;
+  font-family: "Conqueror Sans";
+  line-height: 1.2;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer_1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .footer_1 h5 {
+    font-size: 38px;
+    color: #535e64;
+    font-weight: 800;
+    font-family: "Circe";
+    line-height: 1.2;
+  }
+  .footer_1 .p-1 {
+    margin-top: 35px;
+  }
+  .footer_2 {
+    background: #f9f9f9;
+  }
+  .footer_2 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #535e64;
+    font-weight: 500;
+    font-family: "Conqueror Sans";
+    line-height: 1.2;
+    opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 315px) {
+  .footer_1 .btn {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }/*# sourceMappingURL=index.css.map */
