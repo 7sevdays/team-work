@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Conqueror Sans';
+    src: url('ConquerorSansLight.eot');
+    src: url('ConquerorSansLight.eot?#iefix') format('embedded-opentype'),
+        url('ConquerorSansLight.woff2') format('woff2'),
+        url('ConquerorSansLight.woff') format('woff'),
+        url('ConquerorSansLight.ttf') format('truetype'),
+        url('ConquerorSansLight.svg#ConquerorSansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
