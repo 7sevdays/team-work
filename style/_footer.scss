@@ -1,0 +1,5 @@
+.footer{
+    h5{
+        @include font(48px, #535e64, 800, "Circe", 1.5);
+    }
+}

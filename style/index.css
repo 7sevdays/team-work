@@ -37,4 +37,11 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
+}
+.footer h5 {
+  font-size: 48px;
+  color: #535e64;
+  font-weight: 800;
+  font-family: "Circe";
+  line-height: 1.5;
 }/*# sourceMappingURL=index.css.map */
