@@ -8,6 +8,9 @@
 
 .container{
   width: 870px;
+  @media screen and (max-width: 582px) {
+    width: 100%;
+  }
 }
 .header{
   background-image: url(../img/hero\ image.png);
@@ -31,7 +34,10 @@
     padding-top: 21px;
     padding-bottom: 78px;
     text-align: center;
-    @include font(22px, white, 400, "Conqueror Sans", 26px)
+    @include font(22px, white, 400, "Conqueror Sans", 26px);
+    @media screen and (max-width: 575px) {
+      width: 100%;
+    }
   }
   &-background-img-1{
     height: 207px;
@@ -61,16 +67,16 @@
     height: 580px;
    }
    @media screen and (max-width:900px) {
-    top: 78%;
-   }
-   @media screen and (max-width:825px) {
-    top: 106%;
+    top: 105%;
    }
    @media screen and (max-width:825px) {
     top: 77%;
    }
    @media screen and (max-width:825px) {
-    top: 80%;
+    top: 108%;
+   }
+   @media screen and (max-width:415px) {
+    top: 117%;
    }
 
   }
@@ -86,8 +92,12 @@
       margin: auto;
       text-align: center;
       width: 270px;
-      @include font(16px, #9a9a9a, 300,"Conqueror Sans", 21px )
+      @include font(16px, #9a9a9a, 300,"Conqueror Sans", 21px );
+      @media screen and (max-width: 575px) {
+        width: 100%;
+      }
     }
+    
   }
   &-block-form{
     padding-left: 30px;
@@ -181,6 +191,9 @@
       @media screen and (max-width:825px) {
         width: auto;
       }
+      @media screen and (max-width: 575px) {
+        width: 100%;
+      }
       }
       &-link{
         @include font(15px, #ff5c46, 300,'Conqueror Sans', 22px)
@@ -189,6 +202,11 @@
     }
   }
 
+}
+@media screen and (max-width:562px) {
+  .container{
+    width: auto;
+  }
 }
 
 @media screen and (max-width:762px) {
@@ -228,6 +246,9 @@
     margin-bottom: 15px;
     width: 80%;
    }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
 
 }
 
@@ -240,6 +261,9 @@
     margin-right: 0px;
     margin-bottom: 15px;
     width: 80%;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
    }
 }
 
@@ -255,6 +279,9 @@
     margin-bottom: 15px;
     width: 80%;
     margin-top: 0px;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
    }
 }
 
@@ -277,6 +304,9 @@ display: none;
     margin-bottom: 15px;
     width: 80%;
     margin-top: 0px;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
    }
 }
 
@@ -304,6 +334,9 @@ display: none;
     width: 80%;
     margin-top: 0px;
    }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
 }
 
 
@@ -318,5 +351,8 @@ display: none;
   width: 50%;
   background-color: #ff5c46;
   color: white;
+  @media screen and (max-width:400px) {
+    margin-top: 0px;
+   }
 }
 
