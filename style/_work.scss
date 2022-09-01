@@ -1,6 +1,8 @@
 
 .work{
-
+    .work_text{
+        margin-bottom: 60px;
+    }
     h2{
         @include font(40px, #535e64, 800, "Circe", 1.5);
         text-transform: uppercase;

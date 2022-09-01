@@ -38,6 +38,9 @@
   font-style: normal;
   font-display: swap;
 }
+.work .work_text {
+  margin-bottom: 60px;
+}
 .work h2 {
   font-size: 40px;
   color: #535e64;
