@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 870px;
+}
+
 .header {
   background-image: url(../img/hero\ image.png);
   width: 100%;
@@ -50,14 +54,15 @@
 .header-background-img-2 {
   height: 207px;
   width: 100%;
-  background-position-x: 44%;
+  background-position-x: 71%;
   background-position-y: 15%;
   background-repeat: no-repeat;
   background-image: url(../img/background-iccons/group-2.png);
 }
 
 .main-form-block {
-  top: 75%;
+  height: 376px;
+  top: 90%;
   background-color: white;
   filter: drop-shadow(0px 3px 12.5px rgba(0, 0, 0, 0.2));
 }
@@ -71,6 +76,7 @@
   line-height: 18px;
 }
 .main-form-sub-text {
+  padding-top: 20px;
   padding-bottom: 30px;
   margin: auto;
   text-align: center;
@@ -81,16 +87,161 @@
   font-family: "Conqueror Sans";
   line-height: 21px;
 }
+.main-block-form {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main-background-img-1 {
+  z-index: 2;
+  width: 100%;
+  height: 200px;
+  background-position-x: 30%;
+  background-position-y: 15%;
+  background-image: url(../img/background-iccons/group-2\c opy.png);
+  background-repeat: no-repeat;
+}
+.main-background-img-2 {
+  z-index: 2;
+  width: 100%;
+  height: 200px;
+  background-position-x: 71%;
+  background-position-y: 15%;
+  background-image: url(../img/background-iccons/group-3\c opy.png);
+  background-repeat: no-repeat;
+}
+.main-benefits-padding-start-block-img {
+  padding-top: 63px;
+}
+.main-benefits-text-align-center {
+  text-align: center;
+}
+.main-benefits-padding-block-title-text {
+  padding-top: 91px;
+}
+.main-benefits-title-text {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #535e64;
+  font-weight: bolder;
+  font-family: "Circe";
+  line-height: 42px;
+}
+.main-benefits-padding-top {
+  padding-top: 110px;
+}
+.main-benefits-background-card-1 {
+  z-index: 1;
+  width: 50%;
+  height: 220px;
+  left: 0;
+  margin-top: 132px;
+  background-image: url(../img/background-iccons/background-card-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-benefits-background-card-2 {
+  z-index: 1;
+  width: 50%;
+  height: 220px;
+  left: 0;
+  margin-top: 132px;
+  background-image: url(../img/background-iccons/background-card-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-benefits-card-1-title-text {
+  font-size: 24px;
+  color: #1b3b5b;
+  font-weight: bold;
+  font-family: "Circe";
+  line-height: 20px;
+}
+.main-benefits-card-1-sub-text {
+  padding-top: 25px;
+  width: 347px;
+  font-size: 15px;
+  color: #646464;
+  font-weight: 300;
+  font-family: "Conqueror Sans";
+  line-height: 22px;
+}
+.main-benefits-card-1-link {
+  font-size: 15px;
+  color: #ff5c46;
+  font-weight: 300;
+  font-family: "Conqueror Sans";
+  line-height: 22px;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
 
 #btn-name {
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-right: 20px;
+}
+
+#btn-phone {
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+}
+
+#btn-email {
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+#btn-school {
   display: none;
 }
 
-.btn-name-label {
-  width: 300px;
-  height: 40px;
+.btn-school {
+  display: flex;
   border-radius: 30px;
   border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-top: 15px;
+  color: grey;
+}
+.btn-school-triangle {
+  left: 90%;
+}
+
+#btn-campus {
+  display: none;
+}
+
+.btn-campus {
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+#btn-continue {
+  font-family: "Conqueror Sans";
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+  width: 50%;
+  background-color: #ff5c46;
+  color: white;
 }
 
 @font-face {

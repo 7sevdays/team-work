@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-
+.container{
+  width: 870px;
+}
 .header{
   background-image: url(../img/hero\ image.png);
   width: 100%;
@@ -42,7 +44,7 @@
   &-background-img-2{
     height: 207px;
     width: 100%;
-    background-position-x: 44%;
+    background-position-x: 71%;
     background-position-y: 15%;
     background-repeat: no-repeat;
     background-image: url(../img/background-iccons/group-2.png);
@@ -51,7 +53,8 @@
 
 .main{
   &-form-block{
-    top: 75%;
+    height: 376px;
+    top: 90%;
     background-color: white;
     filter: drop-shadow(0px 3px 12.5px rgba(0,0,0,0.2));
   }
@@ -62,6 +65,7 @@
       @include font(24px, #ff5c46, bold,'Circe', 18px)
     }
     &-sub-text{
+      padding-top: 20px;
       padding-bottom: 30px;
       margin: auto;
       text-align: center;
@@ -69,14 +73,152 @@
       @include font(16px, #9a9a9a, 300,"Conqueror Sans", 21px )
     }
   }
-}
-#btn-name{
-  display: none;
+  &-block-form{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &-background-img-1{
+    z-index: 2;
+    width: 100%;
+    height: 200px;
+    background-position-x: 30%;
+    background-position-y: 15%;
+    background-image: url(../img/background-iccons/group-2\copy.png);
+    background-repeat: no-repeat;
+  }
+  &-background-img-2{
+    z-index: 2;
+    width: 100%;
+    height: 200px;
+    background-position-x: 71%;
+    background-position-y: 15%;
+    background-image: url(../img/background-iccons/group-3\copy.png);
+    background-repeat: no-repeat;
+  }
+  &-benefits{
+    &-padding-start-block-img{
+      padding-top: 63px;
+    }
+    &-text-align-center{
+      text-align: center;
+    }
+    &-padding-block-title-text{
+      padding-top: 91px;
+    }
+    &-title-text{
+      text-transform: uppercase;
+      @include font(40px, #535e64, bolder, "Circe", 42px)
+    }
+    &-padding-top{
+      padding-top: 110px;
+    }
+    &-background-card-1{
+      z-index: 1;
+      width: 50%;
+      height: 220px;
+      left: 0;
+      margin-top: 132px;
+      background-image: url(../img/background-iccons/background-card-1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &-background-card-2{
+      z-index: 1;
+      width: 50%;
+      height: 220px;
+      left: 0;
+      margin-top: 132px;
+      background-image: url(../img/background-iccons/background-card-2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &-card-1{
+      &-title-text{
+        @include font(24px, #1b3b5b, bold, "Circe", 20px )
+      }
+      &-sub-text{
+        padding-top: 25px;
+        width: 347px;
+        @include font(15px, #646464, 300,'Conqueror Sans', 22px)
+      }
+      &-link{
+        @include font(15px, #ff5c46, 300,'Conqueror Sans', 22px)
+      }
+
+    }
+  }
+
 }
 
-.btn-name-label{
-  width: 300px;
-  height: 40px;
+
+.text-decoration{
+  text-decoration: none;
+}
+#btn-name{
   border-radius: 30px;
   border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-right: 20px;
+
 }
+
+#btn-phone{
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+}
+
+#btn-email{
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+#btn-school{
+display: none;
+}
+.btn-school{
+  display: flex;
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-top: 15px;
+  color: grey;
+  &-triangle{
+    left: 90%;
+  }
+}
+
+#btn-campus{
+display: none;
+}
+
+.btn-campus{
+  border-radius: 30px;
+  border: 2px solid lightgray;
+  padding: 15px;
+  width: 50%;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+
+#btn-continue{
+  font-family: "Conqueror Sans";
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+  width: 50%;
+  background-color: #ff5c46;
+  color: white;
+}
+
