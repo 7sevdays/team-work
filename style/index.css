@@ -87,9 +87,14 @@
     top: 65%;
   }
 }
+@media screen and (max-width: 1300px) {
+  .main-form-block {
+    top: 65%;
+  }
+}
 @media screen and (max-width: 1595px) {
   .main-form-block {
-    top: 45%;
+    top: 80%;
   }
 }
 @media screen and (max-width: 900px) {
