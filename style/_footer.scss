@@ -1,5 +1,31 @@
 .footer{
+    margin-top: 115px;
+    .email{
+        @include font(16px, #ff5b46, 300, "Circe", 1.7);
+        border: 1px solid #ff5b46!important;
+    }
+    .btn{
+        @include font(16px, #ffffff, 600, "Circe", 2);
+        background: #ff5b46;
+        border: 1px solid #ff5b46!important;
+    }
     h5{
-        @include font(48px, #535e64, 800, "Circe", 1.5);
+        @include font(48px, #535e64, 800, "Circe", 1.2);
+    }
+    .p-1{
+        @include font(16px, #9a9a9a, 200, "Circe", 1.2);
+        margin: 0 auto;
+    }
+    .p-2{
+        @include font(14px, #abacae, 200, "Circe", 1.2);
+        margin: 0 auto;
+        opacity: 0.5;
+    }
+    .form{
+        &-control {
+            width: 50%;
+        }
+
     }
 }
+
