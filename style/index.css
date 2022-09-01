@@ -457,6 +457,9 @@
   font-style: normal;
   font-display: swap;
 }
+.work {
+  margin-top: 130px;
+}
 .work .work_text {
   margin-bottom: 60px;
 }
