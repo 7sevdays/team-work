@@ -87,14 +87,14 @@
     top: 65%;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
   .main-form-block {
     top: 65%;
   }
 }
 @media screen and (max-width: 1595px) {
   .main-form-block {
-    top: 80%;
+    top: 45%;
   }
 }
 @media screen and (max-width: 900px) {
