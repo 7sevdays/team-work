@@ -15,15 +15,23 @@
     .card-text{
         @include font(16px, #666666, 300, "Conqueror Sans", 1.2);
     }
-    .bakground{
-        background-image: url("../img/short text/background-1.png");
-    }
     img{
         margin: 0 auto;
         margin-top: 80px;
         margin-bottom: 20px;
     }
-
+    .bakground-1{
+        background-image: url("../img/short text/background-1.png");
+    }
+    .bakground-2{
+        background-image: url("../img/short text/background-1.png");
+    }
+    .bakground-3{
+        background-image: url("../img/short text/background-1.png");
+    }
+    .bakground-4{
+        background-image: url("../img/short text/background-1.png");
+    }
 }  
 
 
