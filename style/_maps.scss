@@ -8,6 +8,9 @@
 
 .container{
   width: 870px;
+  @media screen and (max-width: 582px) {
+    width: 100%;
+  }
 }
 .header{
   background-image: url(../img/hero\ image.png);
@@ -31,7 +34,10 @@
     padding-top: 21px;
     padding-bottom: 78px;
     text-align: center;
-    @include font(22px, white, 400, "Conqueror Sans", 26px)
+    @include font(22px, white, 400, "Conqueror Sans", 26px);
+    @media screen and (max-width: 575px) {
+      width: 100%;
+    }
   }
   &-background-img-1{
     height: 207px;
@@ -57,12 +63,28 @@
     top: 90%;
     background-color: white;
     filter: drop-shadow(0px 3px 12.5px rgba(0,0,0,0.2));
+   @media screen and (max-width:900px) {
+    height: 580px;
+   }
+   @media screen and (max-width:900px) {
+    top: 105%;
+   }
+   @media screen and (max-width:825px) {
+    top: 77%;
+   }
+   @media screen and (max-width:825px) {
+    top: 108%;
+   }
+   @media screen and (max-width:415px) {
+    top: 117%;
+   }
+
   }
   &-form{
     &-title-text{
       padding-top: 45px;
       text-align: center;
-      @include font(24px, #ff5c46, bold,'Circe', 18px)
+      @include font(24px, #ff5c46, bold,'Circe', 18px);
     }
     &-sub-text{
       padding-top: 20px;
@@ -70,12 +92,23 @@
       margin: auto;
       text-align: center;
       width: 270px;
-      @include font(16px, #9a9a9a, 300,"Conqueror Sans", 21px )
+      @include font(16px, #9a9a9a, 300,"Conqueror Sans", 21px );
+      @media screen and (max-width: 575px) {
+        width: 100%;
+      }
     }
+    
   }
   &-block-form{
     padding-left: 30px;
     padding-right: 30px;
+    @media screen and (max-width:900px) {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      padding-left: 0px;
+      padding-right: 0px;
+     }
   }
   &-background-img-1{
     z-index: 2;
@@ -97,7 +130,13 @@
   }
   &-benefits{
     &-padding-start-block-img{
-      padding-top: 63px;
+      padding-top: 150px;
+         @media screen and (max-width:900px) {
+    margin-top: 350px;
+    @media screen and (max-width:825px) {
+      margin-top: 255px;
+     }
+   }
     }
     &-text-align-center{
       text-align: center;
@@ -126,9 +165,18 @@
       z-index: 1;
       width: 50%;
       height: 220px;
-      left: 0;
-      margin-top: 132px;
+      right: 146px;
       background-image: url(../img/background-iccons/background-card-2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &-background-card-3{
+      z-index: 1;
+      width: 50%;
+      height: 220px;
+      left: 0;
+      background-image: url(../img/background-iccons/background-card-3.png);
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -139,7 +187,13 @@
       &-sub-text{
         padding-top: 25px;
         width: 347px;
-        @include font(15px, #646464, 300,'Conqueror Sans', 22px)
+        @include font(15px, #646464, 300,'Conqueror Sans', 22px);
+      @media screen and (max-width:825px) {
+        width: auto;
+      }
+      @media screen and (max-width: 575px) {
+        width: 100%;
+      }
       }
       &-link{
         @include font(15px, #ff5c46, 300,'Conqueror Sans', 22px)
@@ -149,7 +203,34 @@
   }
 
 }
+@media screen and (max-width:562px) {
+  .container{
+    width: auto;
+  }
+}
 
+@media screen and (max-width:762px) {
+  .adapt-cards{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+  }
+  .adapt-img-card{
+    margin-top: 50px;
+  }
+  .p-b-b{
+    padding-bottom: 0px;
+  }
+  .header{
+    background-position: 0% 0%;
+    background-size: cover;
+  }
+  .adapt-last-card{
+    width: 75%;
+    margin-top: 30px;
+  }
+}
 
 .text-decoration{
   text-decoration: none;
@@ -160,6 +241,14 @@
   padding: 15px;
   width: 50%;
   margin-right: 20px;
+  @media screen and (max-width:900px) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 80%;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
 
 }
 
@@ -168,6 +257,14 @@
   border: 2px solid lightgray;
   padding: 15px;
   width: 50%;
+  @media screen and (max-width:900px) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 80%;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
 }
 
 #btn-email{
@@ -177,6 +274,15 @@
   width: 50%;
   margin-right: 20px;
   margin-top: 15px;
+  @media screen and (max-width:900px) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-top: 0px;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
 }
 
 #btn-school{
@@ -193,6 +299,22 @@ display: none;
   &-triangle{
     left: 90%;
   }
+  @media screen and (max-width:900px) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-top: 0px;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
+}
+
+.p-b-b{
+  padding-bottom: 300px;
+  @media screen and (max-width: 765px) {
+    padding-bottom: 0px;
+  }
 }
 
 #btn-campus{
@@ -206,6 +328,15 @@ display: none;
   width: 50%;
   margin-top: 15px;
   margin-right: 20px;
+  @media screen and (max-width:900px) {
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 80%;
+    margin-top: 0px;
+   }
+   @media screen and (max-width:400px) {
+    width: 100%;
+   }
 }
 
 
@@ -220,5 +351,8 @@ display: none;
   width: 50%;
   background-color: #ff5c46;
   color: white;
+  @media screen and (max-width:400px) {
+    margin-top: 0px;
+   }
 }
 
