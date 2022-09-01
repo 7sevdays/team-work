@@ -9,6 +9,7 @@
 .header {
   background-image: url(../img/hero\ image.png);
   width: 100%;
+  height: 100%;
   background-position: center;
 }
 .header-logo {
@@ -16,6 +17,43 @@
 }
 .header-logo-img {
   margin: auto;
+}
+.header-title-text {
+  padding-top: 103px;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+  font-weight: 800;
+  font-family: "Circe";
+  line-height: 31px;
+}
+.header-sub-text {
+  margin: auto;
+  width: 375px;
+  padding-top: 21px;
+  padding-bottom: 78px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+  font-family: "Conqueror Sans";
+  line-height: 26px;
+}
+.header-background-img-1 {
+  height: 207px;
+  width: 100%;
+  background-position-x: 30%;
+  background-position-y: 15%;
+  background-repeat: no-repeat;
+  background-image: url(../img/background-iccons/group-3.png);
+}
+.header-background-img-2 {
+  height: 207px;
+  width: 100%;
+  background-position-x: 44%;
+  background-position-y: 15%;
+  background-repeat: no-repeat;
+  background-image: url(../img/background-iccons/group-2.png);
 }
 
 @font-face {
