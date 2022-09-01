@@ -1,0 +1,86 @@
+
+.work{
+
+    h2{
+        @include font(40px, #535e64, 800, "Circe", 1.5);
+        text-transform: uppercase;
+    }
+    .section-descr{
+        @include font(16px, #535e64, 300, "Conqueror Sans Light", 1.2);
+    }
+    .card-title{
+        @include font(20px, #1b3b5b, 800, "Circe", 1.2);
+        text-transform: uppercase; 
+    }
+    .card-text{
+        @include font(16px, #666666, 300, "Conqueror Sans", 1.2);
+    }
+    .bakground{
+        background-image: url("../img/short text/background-1.png");
+    }
+    img{
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+}  
+
+
+
+
+//   .section-descr {
+//     font-family: "Conqueror Sans";
+//     max-width: 727px;
+//     text-align: center;
+//     font-size: 16px;
+//     color: #666666;
+//     font-weight: 300;
+//     line-height: 20px;
+//     margin: 0 auto;
+//     margin-top: 30px;
+//   }
+  
+  
+    .work-card {
+      padding: 83px 49px;
+      margin: 0 auto;
+      text-align: center;
+      .work-title {
+        margin-top: 42px;
+        text-transform: uppercase;
+        color: #333366;
+        font-family: "Conqueror Sans";
+        font-weight: bolder;
+        font-size: 20px;
+      }
+    
+    .card-text {
+      font-family: "Conqueror Sans";
+      max-width: 727px;
+      text-align: center;
+      font-size: 16px;
+      color: #666666;
+      font-weight: 300;
+      line-height: 20px;
+      margin: 0 auto;
+      margin-top: 24px;
+    }
+    }
+  
+  .bg-card-1 {
+    background-image: url('../img/short text/background-1.png');
+  }
+  .bg-card-2 {
+    background-image: url('../img/short text/background-2.png');
+  }
+  
+  .work-bg {
+    position: relative;
+  }
+  .work-info {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  text-align: center;
+  }

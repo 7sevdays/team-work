@@ -6,77 +6,6 @@
   box-sizing: border-box;
 }
 
-.section-title {
-  font-family: "Circe";
-  font-size: 40px;
-  font-weight: 600;
-  color: #666666;
-  font-weight: bolder;
-  margin: 0 auto;
-  text-transform: uppercase;
-  max-width: 500px;
-  text-align: center;
-}
-
-.section-descr {
-  font-family: "Conqueror Sans";
-  max-width: 727px;
-  text-align: center;
-  font-size: 16px;
-  color: #666666;
-  font-weight: 300;
-  line-height: 20px;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-
-.work-content {
-  margin-top: 58px;
-  padding: 0 80px;
-}
-.work-content .work-item .work-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.work-content .work-item .bg-img {
-  position: relative;
-}
-.work-content .work-item .work-block {
-  position: absolute;
-  top: 84px;
-}
-
-.card {
-  border: none;
-}
-
-.card-body {
-  padding: 83px 49px;
-  margin: 0 auto;
-  text-align: center;
-}
-.card-body .card-title {
-  margin-top: 42px;
-  text-transform: uppercase;
-}
-.card-body .card-text {
-  font-family: "Conqueror Sans";
-  max-width: 727px;
-  text-align: center;
-  font-size: 16px;
-  color: #666666;
-  font-weight: 300;
-  line-height: 20px;
-  margin: 0 auto;
-  margin-top: 24px;
-}
-
-.bg-card {
-  background-image: url("../img/short text/background-2.png");
-}
-
 @font-face {
   font-family: "Circe";
   src: url("../fonts/fontsCirce-Bold.eot");
@@ -108,4 +37,86 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
+}
+.work h2 {
+  font-size: 40px;
+  color: #535e64;
+  font-weight: 800;
+  font-family: "Circe";
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.work .section-descr {
+  font-size: 16px;
+  color: #535e64;
+  font-weight: 300;
+  font-family: "Conqueror Sans Light";
+  line-height: 1.2;
+}
+.work .card-title {
+  font-size: 20px;
+  color: #1b3b5b;
+  font-weight: 800;
+  font-family: "Circe";
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.work .card-text {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 300;
+  font-family: "Conqueror Sans";
+  line-height: 1.2;
+}
+.work .bakground {
+  background-image: url("../img/short text/background-1.png");
+}
+.work img {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.work-card {
+  padding: 83px 49px;
+  margin: 0 auto;
+  text-align: center;
+}
+.work-card .work-title {
+  margin-top: 42px;
+  text-transform: uppercase;
+  color: #333366;
+  font-family: "Conqueror Sans";
+  font-weight: bolder;
+  font-size: 20px;
+}
+.work-card .card-text {
+  font-family: "Conqueror Sans";
+  max-width: 727px;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.bg-card-1 {
+  background-image: url("../img/short text/background-1.png");
+}
+
+.bg-card-2 {
+  background-image: url("../img/short text/background-2.png");
+}
+
+.work-bg {
+  position: relative;
+}
+
+.work-info {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
