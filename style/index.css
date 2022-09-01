@@ -457,7 +457,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 .work .work_text {
   margin-bottom: 60px;
 }
@@ -551,6 +550,7 @@
   z-index: 1;
   top: 100px;
   text-align: center;
+}
 
 .footer_1 {
   margin-top: 115px;
