@@ -77,9 +77,19 @@
   background-color: white;
   filter: drop-shadow(0px 3px 12.5px rgba(0, 0, 0, 0.2));
 }
+@media screen and (max-width: 1920px) {
+  .main-form-block {
+    top: 49%;
+  }
+}
 @media screen and (max-width: 1600px) {
   .main-form-block {
-    top: 77%;
+    top: 65%;
+  }
+}
+@media screen and (max-width: 1595px) {
+  .main-form-block {
+    top: 45%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -99,7 +109,7 @@
 }
 @media screen and (max-width: 825px) {
   .main-form-block {
-    top: 69%;
+    top: 49%;
   }
 }
 @media screen and (max-width: 415px) {
