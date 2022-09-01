@@ -126,9 +126,18 @@
       z-index: 1;
       width: 50%;
       height: 220px;
-      left: 0;
-      margin-top: 132px;
+      right: 146px;
       background-image: url(../img/background-iccons/background-card-2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &-background-card-3{
+      z-index: 1;
+      width: 50%;
+      height: 220px;
+      left: 0;
+      background-image: url(../img/background-iccons/background-card-3.png);
       background-repeat: no-repeat;
       background-position: center;
     }
