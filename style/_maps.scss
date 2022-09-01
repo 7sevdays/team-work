@@ -7,3 +7,14 @@
 }
 
 
+.header{
+  background-image: url(../img/hero\ image.png);
+  width: 100%;
+  background-position: center;
+  &-logo{
+    padding-top: 48px;
+    &-img{
+      margin: auto;
+    }
+  }
+}

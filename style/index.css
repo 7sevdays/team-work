@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+.header {
+  background-image: url(../img/hero\ image.png);
+  width: 100%;
+  background-position: center;
+}
+.header-logo {
+  padding-top: 48px;
+}
+.header-logo-img {
+  margin: auto;
+}
+
 @font-face {
   font-family: "Circe";
   src: url("../fonts/fontsCirce-Bold.eot");
