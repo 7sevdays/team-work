@@ -64,18 +64,17 @@
     top: 90%;
     background-color: white;
     filter: drop-shadow(0px 3px 12.5px rgba(0,0,0,0.2));
-    @media screen and (max-width:1920px) {
-      top: 49%;
-     }
-    
-    @media screen and (max-width:1600px) {
-      top: 65%;
+    @media screen and (max-width:1925px) {
+      top: 60%;
      }
      @media screen and (max-width:1600px) {
-      top: 65%;
+      top: 66%;
      }
-     @media screen and (max-width:1595px) {
-      top: 45%;
+     @media screen and (max-width:1410px) {
+      top: 60%;
+     }
+     @media screen and (max-width:1210px) {
+      top: 88%;
      }
     @media screen and (max-width:900px) {
     height: 580px;
@@ -84,13 +83,16 @@
     margin-top: 100px;
    }
    @media screen and (max-width:780px) {
-    top: 78%;
+    top: 52%;
    }
    @media screen and (max-width:825px) {
-    top: 49%;
+    top: 92%;
+   }
+   @media screen and (max-width:585px) {
+    top: 99%;
    }
    @media screen and (max-width:415px) {
-    top: 53%;
+    top: 99%;
    }
 
   }
